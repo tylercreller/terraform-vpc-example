@@ -1,7 +1,7 @@
-region               = "us-east-1"
-subnet_azs           = ["use1-az2", "use1-az4", "use1-az6"]
-cluster_name         = "rosa-hcp"
+region               = "ap-southeast-1"
+subnet_azs           = ["apse1-az1", "apse1-az2"]
+cluster_name         = "<your_cluster_name>"
 vpc_cidr             = "10.0.0.0/16"
 subnet_cidr_prefix   = 24
 private_subnets_only = false
-single_az_only       = false
+single_az_only       = true
